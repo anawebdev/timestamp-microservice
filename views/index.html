@@ -1,46 +1,5 @@
 <!DOCTYPE html>
 <html>
-<!--
-    <style>
-        /****** Main Styling ******/
-
-        body {
-            font-family: 'Roboto', sans-serif;
-            font-size: 16px;
-            color: salmon;
-            background-color: #ECF0F1;
-            text-align: center;
-        }
-
-        .container {
-            padding: 0;
-            margin-top: 40px;
-        }
-
-        .footer {
-            margin-top: 60px;
-        }
-
-        ol {
-            list-style-position: inside;
-        }
-        ul {
-            list-style-type: none;
-        }
-
-        a {
-            color: #2574A9;
-        }
-        /****** Logo Div Styling ******/
-
-        img {
-            margin: 20px auto 0 auto;
-            display: block;
-        }
-
-
-    </style>
--->
    <head>
       <title>Backend Challenges | Free Code Camp</title>
       <!--<link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>-->
@@ -50,8 +9,25 @@
 
    <body>
       <div class="container">
-         <h1>Manage Node.js projects and npm packages using package.json</h1>
-         <h3>Part 1 of Free Code Camp Backend Challenges</h3>
+         <h1>API Basejump: Timestamp microservice</h1>
+         <h3>User stories:</h3>
+         <ol>
+             <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: December 15, 2015)</li>
+             <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+             <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+         </ol>
+
+         <h3>Example usage:</h3>
+            <code>link + /December%2015,%202015</code><br>
+            <code>link + /1450137600</code>
+            <h3>Example output:</h3>
+            <code>
+                {
+                  "unix": 1450137600,
+                  "natural": "December 15, 2015"
+                }
+            </code>
+         
       </div>
    </body>
 
