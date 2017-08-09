@@ -1,10 +1,3 @@
-![](http://i.imgur.com/MImgpQA.jpg)
-
-
-### Description
-
-Unsure if the people walking down the street are wearing big scarves as a fashion statement or because it actually is cold? Can't tell if you should take your umbrella with you when you leave your house? Should you wear two layers of clothes or three? This app can help you anwswer all these questions with an accurate, location based update on current weather.
-
 # Timestamp microservice
 
 - - -
